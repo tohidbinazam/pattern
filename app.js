@@ -1,8 +1,8 @@
 
 // Email pattern
 
-let email = 'tohid.binazamsunny1@jtv.com.uk';
-let pattern = /^[^\.-/][a-z0-9\.-_]{1,}@[a-z0-9-]{1,}\.[a-z\.]{2,}$/;
+let email = 'toh_id.binazamsunny1@jtv.com.uk';
+let pattern = /^[^\.-/][a-z0-9-_\.]{1,}@[a-z0-9-]{1,}\.[a-z\.]{2,}$/;
 
 console.log(pattern.test(email));
 
@@ -10,7 +10,7 @@ console.log(pattern.test(email));
 // Username pattern
 
 let username = 'tohidbinazam'
-let patternus = /^[^A-Z0-9-_\.][a-z0-9\.-_\.]{5,}$/;
+let patternus = /^[^A-Z0-9-_\.][a-z0-9-_\.]{5,}$/;
 
 console.log(patternus.test(username));
 
@@ -26,7 +26,7 @@ console.log(paternnu.test(number));
 // Password pattern
 
 let pass = "^&a0@#Aye."
-let patternpass = /[a-z0-9\.-_@#\$..]{8,}/i;
+let patternpass = /[a-z0-9-_@#\$\...]{8,}/i;
 
 console.log(patternpass.test(pass));
 
